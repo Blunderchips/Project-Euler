@@ -8,7 +8,10 @@ import javax.swing.JOptionPane;
  * Find the sum of all the multiples of 3 or 5 below 1000.
  */
 public class Problem_1 implements Runnable {
-
+    
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         new Problem_1().run();
     }
