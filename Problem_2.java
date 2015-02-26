@@ -1,4 +1,3 @@
-package project_2;
 
 import javax.swing.JOptionPane;
 
@@ -9,7 +8,7 @@ import javax.swing.JOptionPane;
  * 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
  *
  * By considering the terms in the Fibonacci sequence whose values do not exceed
- * four million, find the sum of the even-valued terms.F
+ * four million, find the sum of the even-valued terms.
  */
 public class Problem_2 implements Runnable {
 
@@ -28,8 +27,7 @@ public class Problem_2 implements Runnable {
             long num = fib(i);
             if (num > 4000000) {
                 break;
-            }
-            if (isEven(num)) {
+            } else if (isEven(num)) {
                 total += num;
             }
         }
