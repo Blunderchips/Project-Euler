@@ -6,8 +6,10 @@ import javax.swing.JOptionPane;
  * get 3, 5, 6 and 9. The sum of these multiples is 23.
  *
  * Find the sum of all the multiples of 3 or 5 below 1000.
+ * 
+ * @author Matthew Van der Bijl
  */
-public class Problem_1 implements Runnable {
+public final class Problem_1 implements Runnable {
     
     /**
      * @param args the command line arguments
