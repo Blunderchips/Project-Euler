@@ -9,8 +9,10 @@ import javax.swing.JOptionPane;
  *
  * By considering the terms in the Fibonacci sequence whose values do not exceed
  * four million, find the sum of the even-valued terms.
+ * 
+ * @author Matthew Van der Bijl
  */
-public class Problem_2 implements Runnable {
+public final class Problem_2 implements Runnable {
 
     /**
      * @param args the command line arguments
