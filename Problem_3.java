@@ -5,8 +5,10 @@ import javax.swing.JOptionPane;
  * The prime factors of 13195 are 5, 7, 13 and 29.
  *
  * What is the largest prime factor of the number 600851475143?
+ * 
+ * @author Matthew Van der Bijl
  */
-public class Problem_3 implements Runnable {
+public final class Problem_3 implements Runnable {
 
     /**
      * @param args the command line arguments
