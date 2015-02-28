@@ -6,7 +6,7 @@ import java.math.BigInteger;
  *
  * @author Matthew Van der Bijl
  */
-public class Problem_25 implements Runnable {
+public final class Problem_25 implements Runnable {
 
     public static void main(String[] args) {
         new Problem_25().run();
